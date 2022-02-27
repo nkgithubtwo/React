@@ -32,6 +32,7 @@
 
 .restart:hover{
   background-color: rgb(253, 98, 98);
+<<<<<<< HEAD
   color: white;
 }
 
@@ -48,6 +49,8 @@
 .prev-move:hover{
   background-color: rgb(62, 62, 255);
   color: white;
+=======
+>>>>>>> 2858d5df3a3e605dbff415628ea68ac1f50db39d
 }
 
 .square {
@@ -68,6 +71,7 @@
 .square:focus {
   outline: none;
   background: rgb(151, 211, 151);
+<<<<<<< HEAD
 }
 
 .game {
@@ -76,6 +80,21 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
+=======
+}
+
+.game {
+  display: flex;
+  height: 100vh;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.game-info {
+  margin-left: 20px;
+  min-width: 190px;
+>>>>>>> 2858d5df3a3e605dbff415628ea68ac1f50db39d
 }
 
 .game-info {
